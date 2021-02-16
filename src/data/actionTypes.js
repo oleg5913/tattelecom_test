@@ -1,0 +1,6 @@
+export const SET_USERS = 'SET-USERS'
+export const SET_ALBUMS = 'SET-ALBUMS'
+export const SET_PHOTOS = 'SET-PHOTOS'
+export const SET_POSTS = 'SET-POSTS'
+export const GET_USER_DATA_FOR_POST = 'GET_USER_DATA_FOR_POST'
+export const NEW_POST = 'NEW_POST'

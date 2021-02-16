@@ -1,0 +1,29 @@
+.galleryWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    width: 90%;
+}
+
+.galleryHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem 0 2rem 0;
+}
+
+.galleryHead p {
+    color: #4353ff;
+    font-size: 1.2em;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.albums {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

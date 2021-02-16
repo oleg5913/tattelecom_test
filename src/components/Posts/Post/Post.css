@@ -1,0 +1,29 @@
+.post {
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postHead {
+    display: flex;
+    flex-direction: row;
+}
+
+.postHead img {
+    width: 10%;
+    height: 10%;
+    margin: 0.5rem 1rem 0 0;
+}
+
+.postHead p {
+    margin: 0.5rem 0;
+}
+
+.postActions img {
+    width: 4%;
+}
+
+.postActions img:hover {
+    cursor: pointer;
+}

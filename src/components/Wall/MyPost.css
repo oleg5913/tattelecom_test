@@ -1,0 +1,33 @@
+.myPost {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2em;
+}
+
+.myPostHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.myPostHead img {
+    width: 12%;
+    height: 12%;
+    margin: 0.5rem 1rem 0 0;
+    border-radius: 50%;
+}
+
+.myPostHead p {
+    margin: 0.5rem 0;
+    font-size: 0.8em;
+}
+
+.myPostActions img {
+    width: 4%;
+}
+
+.myPostActions img:hover {
+    cursor: pointer;
+}

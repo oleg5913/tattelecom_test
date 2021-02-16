@@ -1,0 +1,10 @@
+.postsWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts {
+    margin-top: 2.5rem;
+    width: 90%;
+}

@@ -1,0 +1,18 @@
+.formControl {
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+}
+
+.formControl span {
+    height: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 0.4rem 1.2rem;
+    border: 0.05em solid #d32d2d;
+    border-radius: 0.4em;
+    font-size: 0.8em;
+    margin-bottom: 1rem;
+    color: #d32d2d;
+}
+

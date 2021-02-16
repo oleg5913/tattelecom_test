@@ -1,0 +1,29 @@
+.photosWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    width: 90%;
+}
+
+.photosHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem 0 2rem 0;
+}
+
+.photosHead p {
+    color: #4353ff;
+    font-size: 1.2em;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.photosContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

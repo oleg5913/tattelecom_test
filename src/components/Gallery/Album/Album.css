@@ -1,0 +1,52 @@
+.album {
+    width: 250px;
+    margin: 1rem;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 500ms
+}
+
+.album:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.1);
+    transition: 500ms;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.albumCover {
+    width: 100%;
+    height: 250px;
+    background-image: url('../../../img/album.jfif');
+    background-size: cover;
+}
+
+.albumDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.albumDescription p {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 2rem;
+    text-overflow: ellipsis;
+    font-size: 0.6em;
+    padding-left: 1rem;
+    color: #4353ff;
+}
+
+a:visited {
+    color: #4353ff;
+}
+
+.albumDescription img {
+    width: 15%;
+    padding-right: 1rem;
+}
+
+.albumDescription img:hover {
+    cursor: pointer;
+}

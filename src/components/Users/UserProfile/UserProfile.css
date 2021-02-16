@@ -1,0 +1,62 @@
+.profileWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    width: 90%;
+}
+
+.profile p {
+    color: #4353ff;
+}
+
+
+
+.profileInfoTitle {
+    font-size: 1.2em;
+    margin:0 0 2rem 0;
+}
+
+.profileInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileInfo p {
+    font-size: 0.8em;
+    margin: 1rem;
+}
+
+.profileInfoRow {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.profileInfoItem {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    border: 0.05em solid #4353ff;
+    border-radius: 0.2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+div #lastItem {
+    border: none;
+    box-shadow: none;
+}
+
+.profileInfoItemName {
+    border-right: 0.05em solid #4353ff;
+    width: 40%;
+}
+
+.profileInfoItemName p {
+    color: #8e98ff;
+    font-weight: lighter;
+}
