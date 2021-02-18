@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import store from './data/reduxStore';
 import AppContainer from './App';
 
 ReactDOM.render(
-    <BrowserRouter>
-    <Provider store ={store}>
-    <AppContainer />
-    </Provider>
-    </BrowserRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
+  <Provider store={store}>
+      <AppContainer />
+  </Provider>
+</HashRouter>
     ,
   document.getElementById('root')
 );
